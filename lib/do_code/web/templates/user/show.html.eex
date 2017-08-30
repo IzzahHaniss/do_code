@@ -1,0 +1,7 @@
+<h1>Showing User</h1>
+<%= render "user.html", user: @user %>
+
+<br><em><%= username(@user) %></em>
+
+<hr>
+<br><a href="javascript:history.back()">Go Back</a></br>
