@@ -11,7 +11,7 @@ defmodule DoCode.Application do
 
 
       # Start the Ecto repository
-      # supervisor(DoCode.Repo, []),
+      supervisor(DoCode.Repo, []),
 
 
       # Start the endpoint when the application starts
