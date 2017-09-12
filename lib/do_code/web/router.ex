@@ -18,7 +18,6 @@ defmodule DoCode.Web.Router do
 
     get "/", PageController, :index
     resources "/users", UserController, only: [:index, :show, :new, :create]
-
   end
 
   # Other scopes may use custom stacks.
